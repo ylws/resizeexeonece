@@ -1,0 +1,12 @@
+function resizefooter() {
+    footer();
+};
+var resizeTimer = null;
+window.addEventListener("resize",function(){
+	if (resizeTimer){
+		 clearTimeout(resizeTimer);
+	}
+	resizeTimer = setTimeout(resizefooter, 100);
+})
+
+#any questions maito 474569696@qq.com
